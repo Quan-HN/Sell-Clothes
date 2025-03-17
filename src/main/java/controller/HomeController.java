@@ -32,4 +32,4 @@ public class HomeController {
         model.addAttribute("featuredProducts", products); // Truyền danh sách sản phẩm vào giao diện
         return "index";
 }
-}
+} 
