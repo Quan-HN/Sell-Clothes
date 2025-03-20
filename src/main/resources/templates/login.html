@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="vi" xmlns:th="http://www.thymeleaf.org">
+// thảo nguyên đã up lên và dow xuống ok
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập -  Quân AP</title>
+    <title>Đăng nhập - LOUISVUITTON</title>
 
     <!-- Bootstrap 5 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
@@ -84,16 +85,19 @@
 <body>
     <div class="login-container text-center">
         <h2 class="fw-bold mb-3" style="color: #26415E;"><i class="fa-solid fa-user-tie"></i> Đăng nhập</h2>
-        <p class="text-muted">Chào mừng bạn đến với <strong style="color: #ff5100;">Quân AP <i class="fa-solid fa-bag-shopping"></i></strong></p>
+        <p class="text-muted">Chào mừng bạn đến với <strong style="color: #ff5100;">Quân AP <i
+                    class="fa-solid fa-bag-shopping"></i></strong></p>
 
         <form th:action="@{/login}" method="post">
             <div class="mb-3 text-start">
-                <label for="username" class="form-label fw-semibold"><i class="fa-solid fa-user-tie"></i> User name</label>
+                <label for="username" class="form-label fw-semibold"><i class="fa-solid fa-user-tie"></i> User
+                    name</label>
                 <input type="text" id="username" name="username" class="form-control" required autofocus>
             </div>
 
             <div class="mb-3 text-start">
-                <label for="password" class="form-label fw-semibold"><i class="fa-solid fa-lock me-1"></i> Password</label>
+                <label for="password" class="form-label fw-semibold"><i class="fa-solid fa-lock me-1"></i>
+                    Password</label>
                 <input type="password" id="password" name="password" class="form-control" required>
             </div>
 
