@@ -9,6 +9,16 @@
             "projectName": "AsmGD1",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-AsmGd1Application<AsmGD1>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "AsmGd1Application",
+            "projectName": "AsmGD1",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
